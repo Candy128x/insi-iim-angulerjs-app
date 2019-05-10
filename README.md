@@ -20,9 +20,25 @@
 ## 4) Click on Reset button (feature)
 <kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-23-55.png"></img></kbd>
 
----
 
+---
 ## 5) Invalid request to call API domain (request validation)
 	- invalid API calls, URL incorrect, invalid parameter..
-<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-34-31.png"></img></kbd>
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-34-31.png" title="in url modify feeds_from_domain to feeds_from_domain_2"></img></kbd>
+
+
+---
+## 6) Invalid API token (request validation)
+	- In request pass invalid token..
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-39-56.png" title="in data modify insi001laraAPI to insi001laraAPI_2"></img></kbd>
+
+
+---
+## 7) Fetch results based on tags..
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-48-55.png"></img></kbd>
+
+
+---
+## 7.2) Fetch results based on tags with multi tags..
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-50-55.png"></img></kbd>
 
