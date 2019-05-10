@@ -37,8 +37,7 @@
 ## 7) Fetch results based on tags..
 <kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-48-55.png"></img></kbd>
 
-
 ---
-## 7.2) Fetch results based on tags with multi tags..
+## 7.2) Fetch results based on multi tags..
 <kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-50-55.png"></img></kbd>
 
