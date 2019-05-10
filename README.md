@@ -3,9 +3,14 @@
 
 ---
 ## 1) index.html
-<kbd>![alt text](imgs-readme/Screenshot from 2019-05-10 22-51-57.png?raw=true "index.html")</kbd>
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_22-51-57.png" alt="img:index.html" title="page:index.html"></img></kbd>
 
 
 ---
 ## 2) Required minimum 4 char (input validation)
-<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-09-03.png" width="400px"></img></kbd>
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-09-03.png"></img></kbd>
+
+
+---
+## 3) More than 32 character are not to search (input validation)
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-18-16.png"></img></kbd>
