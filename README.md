@@ -14,3 +14,8 @@
 ---
 ## 3) More than 32 character are not to search (input validation)
 <kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-18-16.png"></img></kbd>
+
+
+---
+## 4) Click on Reset button (feature)
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-23-55.png"></img></kbd>
