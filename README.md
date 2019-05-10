@@ -8,4 +8,4 @@
 
 ---
 ## 2) Required minimum 4 char (input validation)
-<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-09-03.png" width="400px"</img></kbd>
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-09-03.png" width="400px"></img></kbd>
