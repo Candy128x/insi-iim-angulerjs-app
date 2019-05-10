@@ -32,6 +32,11 @@
 	- In request pass invalid token..
 <kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-39-56.png" title="in data modify insi001laraAPI to insi001laraAPI_2"></img></kbd>
 
+---
+## 6.2) Invalid Response from API domain (request validation)
+	- In request pass invalid URL..
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-11_01-17-38.png" title="in domain API url modify.."></img></kbd>
+
 
 ---
 ## 7) Fetch results based on tags..
