@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="public/js/angular.js"></script>
-  <script src="public/js/main.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
@@ -36,7 +35,6 @@
         </span>
 	</div>
 	
-	<!-- <button type="submit" class="btn btn-primary">Search</button> -->
 	<button class="btn btn-primary" ng-disabled="searchTagsForm.$invalid" ng-click="getRequest()">Search</button>
 	
 	<button class="btn btn-danger" ng-click="reset()">Reset</button>
@@ -91,57 +89,29 @@
 <script>
 var app = angular.module('formModule', []);
 
-// app.controller('formController', function($scope, $http) {
-//   $http.get("http://localhost/other/anguler-js-proj/insi-iim-angulerjs-app/angularjs-app/json-data.json").then(function (response) {
-//       $scope.myData = response.data.results;
-//   });
-
-
 app.controller("formController", function($scope, $http) {
   $scope.searchTagsModel = "";
-
-  // $scope.getRequest = function() {
-  //   $http.get("http://localhost/other/lara-api/insi-iim-laravel-api/laravel-api/public/fetch_feeds_from_twitter?search_tags="+$scope.searchTagsModel+"&token=insi001laraAPI").then(
-  //     function successCallback(response) {
-  //       $scope.myData = response.data.results;
-  //       var jsonErrorData = angular.toJson(response.data.results, true);
-  //       var jsonErrorDataFlag = jsonErrorData.match(/error/gi);
-  //       // alert(jsonErrorDataFlag);
-	 //        if (jsonErrorDataFlag) {
-		// 	  	$scope.showErrorMsg = true;
-		// 	} else {
-		// 		$scope.showSearchResult = true;
-		// 	}
-  //     },
-  //     function errorCallback(response) {
-  //       alert("Unable to perform get request");
-  //     }
-  //   );
-  // };
-
 
   //using POST
   $scope.getRequest = function() {
   	var req = {
- method: 'POST',
- url: 'http://localhost/other/lara-api/insi-iim-laravel-api/laravel-api/public/fetch_feeds_from_domain',
- headers: {
-   'Content-Type': 'application/json'
- },
- // data: { "search_tags": $scope.searchTagsModel, "token": "insi001laraAPI" }
- data: { "search_tags": $scope.searchTagsModel, "token": "insi001laraAPI" }
-}
+     method: 'POST',
+     url: 'http://localhost/other/lara-api/insi-iim-laravel-api/laravel-api/public/fetch_feeds_from_domain',
+     headers: {
+       'Content-Type': 'application/json'
+     },
+     data: { "search_tags": $scope.searchTagsModel, "token": "insi001laraAPI" }
+    }
     $http(req).then(
       function successCallback(response) {
         $scope.myData = response.data.results;
         var jsonErrorData = angular.toJson(response.data.results, true);
         var jsonErrorDataFlag = jsonErrorData.match(/error/gi);
-        // alert(jsonErrorDataFlag);
 	        if (jsonErrorDataFlag) {
 			  	$scope.showErrorMsg = true;
-			} else {
-				$scope.showSearchResult = true;
-			}
+  			} else {
+  				$scope.showSearchResult = true;
+  			}
       },
       function errorCallback(response) {
         alert("Invalid POST URL OR request parameter :(");
@@ -156,7 +126,6 @@ app.controller("formController", function($scope, $http) {
 
 });
 </script>
-
 
 </body>
 </html>
