@@ -19,3 +19,10 @@
 ---
 ## 4) Click on Reset button (feature)
 <kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-23-55.png"></img></kbd>
+
+---
+
+## 5) Invalid request to call API domain (request validation)
+	- invalid API calls, URL incorrect, invalid parameter..
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_23-29-48.png"></img></kbd>
+
