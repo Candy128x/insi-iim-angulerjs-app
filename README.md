@@ -2,8 +2,14 @@
 
 
 ---
+### Application Requirements
+- AngulerJs-version: AngularJS v1.7.8
+- Use latest FireFox/Chrome browser to access application.
+
+
+---
 ## 1) index.html
-<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_22-51-57.png" alt="img:index.html" title="page:index.html"></img></kbd>
+<kbd><img src="/imgs-readme/Screenshot_from_2019-05-10_22-51-57.png" alt="img:index.html" title="page:index.ht`ml"></img></kbd>
 
 
 ---
